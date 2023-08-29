@@ -44,14 +44,13 @@ return {
           delay = 25,
           reveal = { 'close' }
         },
-        {
+        
         highlights = {
-     fill = {
-      fg = { attribute = "fg", highlight = "TabLine" },
-       bg = { attribute = "bg", highlight = "TabLine" },
-     }, link, just will postfix here:
+             fill = {
+              fg = { attribute = "fg", highlight = "TabLine" },
+               bg = { attribute = "bg", highlight = "TabLine" },
+             }, 
         },
-      },
       },
     },
     config = function(_, opts)
