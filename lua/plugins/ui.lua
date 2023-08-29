@@ -50,7 +50,8 @@ return {
       fg = { attribute = "fg", highlight = "TabLine" },
        bg = { attribute = "bg", highlight = "TabLine" },
      }, link, just will postfix here:
-        }
+        },
+      },
       },
     },
     config = function(_, opts)
