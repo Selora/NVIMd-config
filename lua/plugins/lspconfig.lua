@@ -122,6 +122,7 @@ return {
 
       mason_lspconfig.setup_handlers {
         function(server_name)
+          local keymaps = require('config.keymaps')
           require('lspconfig')[server_name].setup {
             capabilities = capabilities,
             on_attach = keymaps.lspconfig.on_attach,
